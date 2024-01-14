@@ -7,54 +7,33 @@ alert("esto es una alerta putito")
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //existen 3 maneras de escribir variables => var no se usa, pero existe
-//let y const
+
+//LET Y CONST
 
 
     //let => se utiliza para declarar variables que pueden ser reasignadas 
     //tiene un hambito, significa que la variable solo es valida dentro de el bloque donde se declara
 
-//estructura de una variable
+//ESTRUCTURA DE UNA VARIABLE
 
-    //camelcase -> o joroba de camello, es una manera que tenemos estandarizada los programadores para escribir codigo.
-
-    //let nombreDeLaVariable = valor;
+          //camelcase -> o joroba de camello, es una manera que tenemos estandarizada los programadores para escribir codigo.
+               //let nombreDeLaVariable = valor;
 
     // una variable tiene valor, que tipos de valores podemos encontrar en una variable;;
 
         let numero = 15; //number
-        let cadenaDeTexto = "EZEQUIEL SALAZAR"  //string
+        let cadenaDeTexto = "EZEQUIELSALAZAR"  //string
         booleanos = true; //un booleano se va a determinar si algo es verdadero o falso
 
 
 
 //que mas se puede alojar en una variable?
-
     //arreglos o arrays
     //objeto o objet
     //nulo o null
     //indefinido o undefined
     //funciones o functions
-
-
 
 
 //const o constante => se utiliza esta variable cuando el valor no necesita ser reasignado, valor que se mantiene en el timepo.
@@ -68,17 +47,40 @@ alert("esto es una alerta putito")
 
 //declaracion
 
-//estoy reservando simplemente el nombre de la variable y no le asignamos un valor
-//despues nosotros podemos inicializarlo cuando queramos
+    //estoy reservando simplemente el nombre de la variable y no le asignamos un valor
+    //despues nosotros podemos inicializarlo cuando queramos
 
 // let edad;  
 
 
+
+
+
+
+let longitud = cadenaDeTexto.length;
+
+console.log("longitud del tring" + " " + longitud);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //inicializacion => es el proceso en el cual asignamos el valor inicial de la variable 
 
-let edad;
+    let edad;
 
-edad = 25;
+    edad = 25;
 
 //las variables tienen que tener asignado un nombre que haga referenca al dato almacenado
 
@@ -89,11 +91,11 @@ edad = 25;
 
 //console.log => es una funcion de javascript que lo que hace es imprimir menajes en la consola del navegador
 //en entornos en donde se ejecute javascript
-let NumeroUno = 6 ;
-let NumeroDos = 5 ;
-//invocando a el valor de la variable
+    let NumeroUno = 6 ;
+    let NumeroDos = 5 ;
+    //invocando a el valor de la variable
 
-console.log(NumeroUno);
+    console.log(NumeroUno);
 
 // operaciones basicas dentro de js
 //son las operaciones aritmeticas
@@ -151,3 +153,24 @@ alert("hola, como estas?", CompleteName)
 
 
 
+
+
+
+
+
+
+
+let LaCasaCamina = "dssihdisd"
+let LaCasaCamina2 = prompt ("lolito 246")
+
+
+
+
+
+
+
+
+
+
+
+console.log =("")
